@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-24T04:31:18.965Z</updated>
+  <updated>2023-05-24T04:40:05.596Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2023/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E2%80%94%E4%B8%8D%E7%94%A8%E6%8F%92%E4%BB%B6/"/>
     <id>http://example.com/2023/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E2%80%94%E4%B8%8D%E7%94%A8%E6%8F%92%E4%BB%B6/</id>
     <published>2023-05-24T04:19:25.957Z</published>
-    <updated>2023-05-24T04:31:18.965Z</updated>
+    <updated>2023-05-24T04:40:05.596Z</updated>
     
     <content type="html"><![CDATA[<p>第一步：在Hexo的source目录下创建一个图片文件夹，例如pic</p><p><img src="/pic/image-20230524122259449.png" alt="image-20230524122445138"></p><p>第二步：把待插入的图片文件存放到pic目录下，利用正常的Markdown语法编写即可</p><p>例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![img](/pic/xxx.png)</span><br></pre></td></tr></table></figure><p>在pic前面有一个&#x2F;,表示根目录的意思，它对于hexo来说它的资源文件的根目录就是source</p><p>原文参考：<a class="link" href="https://blog.csdn.net/Miracle_ps/article/details/114791335">(232条消息) Hexo 添加图片——不用插件，超简单_一荤配一素的博客-CSDN博客<i class="fas fa-external-link-alt"></i></a></p>]]></content>
     
@@ -34,6 +34,8 @@
       
     
     
+    
+    <category term="个人博客搭建" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
   </entry>
