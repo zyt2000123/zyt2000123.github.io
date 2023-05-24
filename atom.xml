@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-24T04:28:15.771Z</updated>
+  <updated>2023-05-24T04:31:18.965Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,19 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Hexo博客显示图片—不同插件</title>
     <link href="http://example.com/2023/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E2%80%94%E4%B8%8D%E7%94%A8%E6%8F%92%E4%BB%B6/"/>
     <id>http://example.com/2023/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E2%80%94%E4%B8%8D%E7%94%A8%E6%8F%92%E4%BB%B6/</id>
     <published>2023-05-24T04:19:25.957Z</published>
-    <updated>2023-05-24T04:28:15.771Z</updated>
+    <updated>2023-05-24T04:31:18.965Z</updated>
     
-    <content type="html"><![CDATA[<hr><h2 id="Hexo博客显示图片—不同插件"><a href="#Hexo博客显示图片—不同插件" class="headerlink" title="Hexo博客显示图片—不同插件"></a>Hexo博客显示图片—不同插件</h2><p>第一步：在Hexo的source目录下创建一个图片文件夹，例如pic</p><p><img src="/pic/image-20230524122259449.png" alt="image-20230524122445138"></p><p>第二步：把待插入的图片文件存放到pic目录下，利用正常的Markdown语法编写即可</p><p>例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![img](/pic/xxx.png)</span><br></pre></td></tr></table></figure><p>在pic前面有一个&#x2F;,表示根目录的意思，它对于hexo来说它的资源文件的根目录就是source</p><p>原文参考：<a class="link" href="https://blog.csdn.net/Miracle_ps/article/details/114791335">(232条消息) Hexo 添加图片——不用插件，超简单_一荤配一素的博客-CSDN博客<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    <content type="html"><![CDATA[<p>第一步：在Hexo的source目录下创建一个图片文件夹，例如pic</p><p><img src="/pic/image-20230524122259449.png" alt="image-20230524122445138"></p><p>第二步：把待插入的图片文件存放到pic目录下，利用正常的Markdown语法编写即可</p><p>例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![img](/pic/xxx.png)</span><br></pre></td></tr></table></figure><p>在pic前面有一个&#x2F;,表示根目录的意思，它对于hexo来说它的资源文件的根目录就是source</p><p>原文参考：<a class="link" href="https://blog.csdn.net/Miracle_ps/article/details/114791335">(232条消息) Hexo 添加图片——不用插件，超简单_一荤配一素的博客-CSDN博客<i class="fas fa-external-link-alt"></i></a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;Hexo博客显示图片—不同插件&quot;&gt;&lt;a href=&quot;#Hexo博客显示图片—不同插件&quot; class=&quot;headerlink&quot; title=&quot;Hexo博客显示图片—不同插件&quot;&gt;&lt;/a&gt;Hexo博客显示图片—不同插件&lt;/h2&gt;&lt;p&gt;第一步：在Hexo的sou</summary>
+    <summary type="html">&lt;p&gt;第一步：在Hexo的source目录下创建一个图片文件夹，例如pic&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/pic/image-20230524122259449.png&quot; alt=&quot;image-20230524122445138&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第二步：把待插入的图片文件</summary>
       
     
     
