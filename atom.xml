@@ -45,7 +45,7 @@
     <link href="http://example.com/2023/05/24/%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2023/05/24/%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98/</id>
     <published>2023-05-24T03:28:34.154Z</published>
-    <updated>2023-05-24T03:26:49.161Z</updated>
+    <updated>2023-05-24T05:38:57.198Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class WebConfig implements WebMvcConfigurer &#123;</span><br><span class="line">    @Override</span><br><span class="line">    public void addCorsMappings(CorsRegistry registry) &#123;</span><br><span class="line">        registry.addMapping(&quot;/**&quot;)</span><br><span class="line">                .allowedOrigins(&quot;http://localhost:8081&quot;) // 允许的前端域名</span><br><span class="line">                .allowedMethods(&quot;GET&quot;, &quot;POST&quot;, &quot;PUT&quot;, &quot;DELETE&quot;) // 允许的 HTTP 方法</span><br><span class="line">                .allowedHeaders(&quot;*&quot;) // 允许的请求头</span><br><span class="line">                .allowCredentials(true); // 允许携带凭证（如 cookies）</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>步骤：直接写个配置类实现WebMvcConfigurer类，将上面重写的方法复制粘贴进去就行。附上包名全路径，防导错包。</p>]]></content>
     
@@ -57,6 +57,12 @@
     
     
     
+    
+    <category term="jQuery" scheme="http://example.com/tags/jQuery/"/>
+    
+    <category term="表格" scheme="http://example.com/tags/%E8%A1%A8%E6%A0%BC/"/>
+    
+    <category term="表单验证" scheme="http://example.com/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
     
   </entry>
   
