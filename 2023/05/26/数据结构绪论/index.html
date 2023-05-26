@@ -9,7 +9,7 @@
     
     <title>
         
-            SpringBoot配置类方法解决跨域访问问题 |
+            数据结构绪论 |
         
         心愿小赵的杂货铺
     </title>
@@ -147,7 +147,7 @@
         <div class="article-content-container">
 
             <div class="article-title">
-                <span class="title-hover-animation">SpringBoot配置类方法解决跨域访问问题</span>
+                <span class="title-hover-animation">数据结构绪论</span>
             </div>
 
             
@@ -169,13 +169,13 @@
         
             <i class="fa-regular fa-calendar-plus"></i>&nbsp;
         
-        <span class="pc">2023-05-24 11:28:34</span>
-        <span class="mobile">2023-05-24 11:28</span>
+        <span class="pc">2023-05-26 19:36:18</span>
+        <span class="mobile">2023-05-26 19:36</span>
     </span>
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-05-26 18:59:06</span>
+        <span class="pc">2023-05-26 19:35:45</span>
     </span>
     
     
@@ -185,7 +185,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/SpringBoot/">SpringBoot</a>&nbsp;
+                        <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a>&nbsp;
                     </li>
                 
             </ul>
@@ -195,12 +195,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>111 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>2k 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fas fa-clock"></i>&nbsp;<span>1 分钟</span>
+            <i class="fas fa-clock"></i>&nbsp;<span>6 分钟</span>
         </span>
     
     
@@ -218,9 +218,99 @@
             <div class="article-content keep-markdown-body">
                 
 
-                <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class WebConfig implements WebMvcConfigurer &#123;</span><br><span class="line">    @Override</span><br><span class="line">    public void addCorsMappings(CorsRegistry registry) &#123;</span><br><span class="line">        registry.addMapping(&quot;/**&quot;)</span><br><span class="line">                .allowedOrigins(&quot;http://localhost:8081&quot;) // 允许的前端域名</span><br><span class="line">                .allowedMethods(&quot;GET&quot;, &quot;POST&quot;, &quot;PUT&quot;, &quot;DELETE&quot;) // 允许的 HTTP 方法</span><br><span class="line">                .allowedHeaders(&quot;*&quot;) // 允许的请求头</span><br><span class="line">                .allowCredentials(true); // 允许携带凭证（如 cookies）</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>步骤：直接写个配置类实现WebMvcConfigurer类，将上面重写的方法复制粘贴进去就行。附上包名全路径，防导错包。</p>
+                <ol>
+<li><p><strong>程序设计 &#x3D; 数据结构 + 算法</strong></p>
+</li>
+<li><p><strong>数据</strong>：是信息的载体，是描述客观事物的符号，是计算机中可以操作的对象，是能被计算机识别，并输入给计算机处理的符号集合。数据是计算机程序加工的原料。</p>
+</li>
+<li><p><strong>数据元素</strong>：是组成数据的、有一定意义的基本单位，在计算机中通常作为整体处理。也被称为记录。</p>
+</li>
+<li><p><strong>数据项</strong>：一个数据元素可以由若干个数据项组成。数据项是数据不可分割的最小单位。（数据的最小单位是数据项，数据的基本单位是数据元素）</p>
+</li>
+<li><p><strong>数据对象</strong>：是性质相同的数据元素的集合，是数据的子集。</p>
+</li>
+<li><p><strong>数据结构</strong>：是相互之间存在一种或多种特定关系的数据元素的集合。</p>
+</li>
+<li><p><strong>数据结构包括三方面内容</strong>：逻辑结构、存储结构和数据的运算。（逻辑结构是面向问题的，而存储结构就是面向计算机的）</p>
+<p>一个算法的设计取决于所选定的逻辑结构，而算法的实现依赖所采用的存储结构。</p>
+</li>
+<li><p><strong>逻辑结构</strong>：是指数据对象中数据元素之间的相互关系，即从逻辑关系上描述数据。数据的逻辑结构分为线性结构和非线性结构。线性表是典型的线性结构；集合、树、图是典型的非线性结构。</p>
+<ul>
+<li><p><strong>集合结构</strong>：集合结构中的数据元素除了同属于一个集合外，它们之间没有其他关系。各个数据元素是“平等”的，它们的共同属性是“同属于一个集合”。</p>
+<p><img src="/pic/wps1.jpg" alt="img"></p>
+</li>
+<li><p><strong>线性结构</strong>：线性结构中的数据元素之间是一对一的关系。</p>
+<p><img src="/pic/wps2.jpg" alt="img"></p>
+</li>
+<li><p><strong>树形结构</strong>：树形结构中的数据元素之间存在一种一对多的层次关系。</p>
+<p><img src="/pic/wps3.jpg" alt="img"></p>
+</li>
+<li><p><strong>图形结构</strong>：图形结构的数据元素之间是多对多的关系。</p>
+<p><img src="/pic/wps4.jpg" alt="img"></p>
+</li>
+</ul>
+</li>
+<li><p><strong>存储结构</strong>：是指数据的逻辑结构在计算机中的存储形式，也称物理结构。数据元素的存储结构形式有4种：顺序存储、链式存储、索引存储和散列存储</p>
+<ul>
+<li><strong>顺序存储结构</strong>：是把数据元素存放在地址连续的存储单元里，其数据间的逻辑关系和物理关系是一致的。</li>
+</ul>
+<p>  <img src="/pic/wps5.jpg" alt="img"> </p>
+<p>  优点：可以实现随机存取，每个元素占用最少的存储空间。</p>
+<p>  缺点：只能使用相邻的一整块存储单元，因此可能产生较多的外部碎片。</p>
+<ul>
+<li><p><strong>链式存储结构</strong>：是把数据元素存放在任意的存储单元里，这组存储单元可以是连续的，也可以是不连续的，借助指示元素存储地址的指针来元素之间的逻辑关系。</p>
+<p><img src="/pic/wps6.jpg" alt="img"> </p>
+<p>优点：不会出现碎片现象，能充分利用所有存储单元。</p>
+<p>缺点：每个元素因存储指针而占用额外的存储空间，且只能实现顺序存取。</p>
+</li>
+<li><p><strong>索引存储结构</strong>：在存储元素信息的同时，还建立附加的索引表。索引表中的每项称为索引项，索引项的一般形式是（关键字，地址）。</p>
+<p>优点：检索速度快。</p>
+<p>缺点：附加的索引表额外占用存储空间。增加和删除数据时也要修改索引表，因而会花费较多的时间。</p>
+</li>
+<li><p><strong>散列存储结构</strong>：根据元素的关键字直接计算出该元素的存储地址，又称哈希（Hash）存储。</p>
+<p>优点：检索、增加和删除结点的操作都很快。</p>
+<p>缺点：若散列函数不好，则可能出现元素存储单元冲突，而解决冲突会增加时间和空间开销。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>数据的运算</strong>：施加在数据上的运算包括运算的定义和实现。运算的定义是针对逻辑结构的，指出运算的功能；运算的实现是针对存储机构的，指出运算的具体操作步骤。</p>
+</li>
+<li><p><strong>数据类型</strong>：是指一组性质相同的值的集合及定义在此集合上的一些操作的总称。包括原子类型、结构类型、抽象数据类型。</p>
+</li>
+<li><p><strong>抽象数据类型（ADT）</strong>：是指由用户定义的一个数学模型及定义在该模型上的一组操作。它由基本数据类型构成。</p>
+<p>一个抽象数据类型定义了：一个数据对象、数据对象中各数据元素之间的关系及对数据元素的操作。通常用（数据对象，数据关系，基本操作集）这样的三元组来表示。</p>
+</li>
+<li><p><strong>算法</strong>：是解决特定问题求解步骤的描述，在计算机中表现为指令的有限序列，并且每条指令表示一个或多个操作。（算法必须是有穷的，而程序可以是无穷的）</p>
+</li>
+<li><p><strong>算法的基本特性</strong>：输入、输出、有穷性、确定性和可行性。</p>
+<ul>
+<li>输入：一个算法具有0个或多个输入。</li>
+<li>输出：一个算法至少有一个或多个输出。</li>
+<li>有穷性：指算法在执行有限的步骤之后，自动结束而不会出现无限循环，并且每一个步骤在可接受的时间内完成。</li>
+<li>确定性：算法的每一步骤都具有确定的含义，不会出现二义性。</li>
+<li>可行性：算法的每一步都必须是可行的，也就是说，每一步都能够通过执行有限次数完成。</li>
+</ul>
+</li>
+<li><p><strong>算法设计要求</strong>：</p>
+<ul>
+<li>正确性：算法的正确性是指算法至少应该具有输入、输出和加工处理无歧义性、能正确反映问题的需求、能够得到问题的正确答案。（解决问题）</li>
+<li>可读性：算法设计的另一目的是为了便于阅读、理解和交流。</li>
+<li>健壮性：要求算法有很好的容错性，能够对不合理的数据进行检查。</li>
+<li>时间效率高和低存储量：时间效率指的是算法的执行时间，对于同一个问题，如果有多个算法能够解决，执行时间短的算法效率高，执行时间长的效率低。存储量需求指的是算法在执行过程中需要的最大存储空间，主要指算法程序运行时所占用的内存或外部硬盘存储空间。</li>
+</ul>
+</li>
+<li><p><strong>算法效率的度量</strong>：通过时间复杂度和空间复杂度来描述。</p>
+</li>
+<li><p><strong>算法的时间复杂度</strong>：在进行算法分析时，语句总的执行次数T（n）是关于问题规模n的函数，进而分析T（n）随n的变化情况并确定T（n）的数量级。算法的时间复杂度，也就是算法的时间量度，记作：T（n）&#x3D;O(f(n))。它表示随问题规模n的增大，算法执行时间的增长率和f（n）的增长率相同，称作算法的渐近时间复杂度，简称为时间复杂度。其中f（n）是问题规模n的某个函数。</p>
+<p>常用的时间复杂度从小到大排序：O(1) &lt; O(logn) &lt; O(n) &lt; O(nlogn) &lt; O(n^2) &lt; O(n^3) &lt; O(2^n) &lt; O(n!) &lt; O(n^n)</p>
+<p><strong>最坏情况运行时间</strong>是一种保证，那就是运行时间将不会再坏了。一般在没有特殊说明的情况下，都是指最坏时间复杂度。</p>
+<p><strong>平均运行时间</strong>是所有情况中最有意义的，因为它是期望的运行时间。</p>
+</li>
+<li><p><strong>算法的空间复杂度</strong>：是对一个算法在运行过程中临时占用存储空间的度量。常见O(1)代表原地算法。（函数递归调用时空间复杂度等于递归调用的深度）</p>
+</li>
+<li><p><strong>算法原地工作</strong>：是指算法所需的辅助空间为常量。即O(1)</p>
+</li>
+</ol>
 
             </div>
 
@@ -230,16 +320,16 @@
 <div class="article-copyright-info-container">
     <ul class="copyright-info-content">
         <li class="post-title">
-            <span class="type">本文标题</span>：<span class="content">SpringBoot配置类方法解决跨域访问问题</span>
+            <span class="type">本文标题</span>：<span class="content">数据结构绪论</span>
         </li>
         <li class="post-author">
             <span class="type">本文作者</span>：<span class="content">zyt</span>
         </li>
         <li class="post-time">
-            <span class="type">创建时间</span>：<span class="content">2023-05-24 11:28:34</span>
+            <span class="type">创建时间</span>：<span class="content">2023-05-26 19:36:18</span>
         </li>
         <li class="post-link">
-            <span class="type">本文链接</span>：<span class="content">2023/05/24/跨域访问问题/</span>
+            <span class="type">本文链接</span>：<span class="content">2023/05/26/数据结构绪论/</span>
         </li>
         <li class="post-license">
             <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
@@ -257,7 +347,7 @@
                 <ul class="post-tags-box">
                     
                         <li class="tag-item">
-                            <a href="/tags/SpringBoot/">#SpringBoot</a>&nbsp;
+                            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">#数据结构</a>&nbsp;
                         </li>
                     
                 </ul>
@@ -266,29 +356,14 @@
             
                 <div class="article-nav">
                     
-                        <div class="article-prev">
-                            <a class="prev"
-                               rel="prev"
-                               href="/2023/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E2%80%94%E4%B8%8D%E7%94%A8%E6%8F%92%E4%BB%B6/"
-                            >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
-                                <span class="title flex-center">
-                                <span class="post-nav-title-item">Hexo博客显示图片—不同插件</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                            </a>
-                        </div>
-                    
                     
                         <div class="article-next">
                             <a class="next"
                                rel="next"
-                               href="/2023/04/20/%E8%A7%A3%E5%86%B3Hexo%E8%BF%9E%E6%8E%A5SSH%E7%9A%8410054%E9%97%AE%E9%A2%98/"
+                               href="/2023/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E2%80%94%E4%B8%8D%E7%94%A8%E6%8F%92%E4%BB%B6/"
                             >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">解决Hexo 连接的SSH 10054 问题</span>
+                                <span class="post-nav-title-item">Hexo博客显示图片—不同插件</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                                 <span class="right arrow-icon flex-center">
